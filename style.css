@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "left right";
+    place-items: center;
+}
+.left{
+    grid-area: left;
+}
+.right{
+    grid-area: right;
+}
